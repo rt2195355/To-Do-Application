@@ -1,0 +1,174 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap'); */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+.header{
+    min-height: 60vh;
+    background-image: url('./bg3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position:relative;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.container{
+    max-width: 1200px;
+    margin:auto;
+    width:90%;
+}
+.nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    width:40%;
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.headline{
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform : translate(-50%, -50%);
+}
+
+.btn{
+    display: inline-block;
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size:1rem;
+    margin-top: 1rem;
+    font-weight:600;
+}
+
+.section-todo{
+    margin-top:5rem;
+    text-align:center;
+}
+.form-todo{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.form-todo input{
+    min-height: 100%;
+}
+.form-todo input[type="text"]{
+    width:78%;
+    padding:0.8rem;
+    font-size: 1rem;
+    font-weight:600px;
+}
+.form-todo input[type="submit"]{
+    width:20%;
+    background-color: rgb(32,40,29);
+    color: white;
+    font-weight:bold;
+}
+
+.section-signup{
+    margin:5rem auto;;
+    text-align: center;
+    background-color: rgb(240,240,240);
+    padding:1rem;
+}
+
+.signup-form{
+    max-width:800px;
+    width:95%;
+    margin:auto;
+    text-align:left;
+}
+
+.signup-form label{
+    display:block;
+}
+
+.signup-form input{
+    display: block;
+    width:100%;
+    padding: 0.5rem;
+    border:1px solid gray;;
+}
+.form-group{
+    margin-top:1rem;
+}
+input{
+    border-radius:1rem;
+}
+
+.signup-form textarea{
+    max-width: 100%;
+    width:100%;
+    border-radius:1rem;
+    padding:0.5rem;
+}
+.signup-btn{
+    background-color: rgb(32,40,29);
+    color: white;
+    padding:1rem 2rem;
+    display: block;
+    margin:auto;
+    border-radius: 1rem;
+    margin-top:1rem;
+}
+
+.bg-dark{
+    background: black;
+    color:white;
+}
+
+.todo-list{
+    text-align: left;
+    font-size: 1.2rem;
+    width:100%;
+    list-style-type: none;
+}
+.todo-list li{
+    padding:1rem;
+    border-radius: 5rem;
+    background: #666;
+    color: white;
+    margin-top:1rem;
+    text-transform: capitalize;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-btn{
+    /* min-height: 100%; */
+    padding:0.5rem 1rem;
+    font-size: 1rem;
+    border-radius:1rem;
+    font-weight:bold;
+    cursor:pointer;
+}
+.done{
+    background-color: lightgreen;
+}
+.remove{
+    background-color: rgb(228, 83, 83);
+}
+
